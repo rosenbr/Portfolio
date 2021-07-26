@@ -1,4 +1,8 @@
+// TODO
 // Run thru installs
+// Build functionality
+// Build Structure
+// CSS
 // Deploy on Heroku
 // anything else?
 
