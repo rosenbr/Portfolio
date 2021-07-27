@@ -1,19 +1,32 @@
 /* Color Palettes
-    Palette One
+    Palette One - https://colorhunt.co/palettes/space top middle
     #0A1931
     #185ADB
     #FFC947
     #EFEFEF
 
-    Palette Two
+    Palette Two - 
     #4F0E0E
     #BB8760
     #FFDADA
     #FFF1F1
 
-    Paleete Three
+    Palette Three
     #0A1931
     #185ADB
     #FFC947
     #FEDDBE
 */
+body {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,8 +1,7 @@
 // TODO
-// Build functionality
-// Build Structure
 // CSS
 // Deploy on Heroku
+// Finish "About Me" section
 // anything else?
 
 // === | External Modules | ===
