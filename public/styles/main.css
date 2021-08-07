@@ -17,16 +17,26 @@
     #FFC947
     #FEDDBE
 */
-/* body {
-    display: flex;
+
+body {
+    background-color: #EFEFEF;
 }
 
+/* === | Info/About | === */
 .info {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
+    border-style: solid;
 }
 
+/* === | Projects | === */
 .projects {
-    display: flex;
-    flex-direction: column;
-} */
+    /* display: flex; */
+    /* flex-direction: column; */
+    border-style: solid;
+}
+
+/* === | Contact | === */
+.contact {
+    border-style: solid;
+}

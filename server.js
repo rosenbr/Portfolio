@@ -1,5 +1,12 @@
 // TODO
 // CSS
+//  - add icons
+//  - align items
+//  - re-size pics
+//  - placement
+//  - background color
+//  - font color
+//  - font type
 // Deploy on Heroku
 // anything else?
 
