@@ -1,7 +1,6 @@
 // TODO
 // CSS
 // Deploy on Heroku
-// Finish "About Me" section
 // anything else?
 
 // === | External Modules | ===
@@ -20,6 +19,10 @@ const app = express();
 app.set("view engine", "ejs");
 
 // === | Middleware | ===
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/styles"));
+app.use(express.static(__dirname + "/images"));
 
 // === | Routes | ===
 // - | Home | -
