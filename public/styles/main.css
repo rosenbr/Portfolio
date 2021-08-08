@@ -18,25 +18,114 @@
     #FEDDBE
 */
 
+/* === | All | === */
 body {
-    background-color: #EFEFEF;
+    background-color: #0A1931;
+    color: #EFEFEF;
+}
+
+img {
+    height: 300px;
+    width: 400px;
 }
 
 /* === | Info/About | === */
 .info {
-    /* display: flex; */
-    /* flex-direction: row; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
     border-style: solid;
+}
+
+.info__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.info__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
 }
 
 /* === | Projects | === */
 .projects {
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: row;
     border-style: solid;
+}
+
+/* .project__header {
+    display: flex;
+    align-items: center;
+} */
+
+.project__noods {
+    display: flex;
+    flex-direction: row;
+    background-color: #185ADB;
+}
+
+.project__pachygatchi {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFC947;
+    color: #0A1931;
+}
+
+.project__wayfarer {
+    display: flex;
+    flex-direction: row;
+    background-color: #185ADB;
+}
+
+.project__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.project__description {
+    width: 400px;
+    height: 300px;
+}
+
+.project__link {
+    color: #EFEFEF;
+}
+
+#pachy__link {
+    color: #0A1931;
 }
 
 /* === | Contact | === */
 .contact {
     border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.contact__message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 500px;
+}
+
+.contact__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
