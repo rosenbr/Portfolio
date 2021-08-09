@@ -25,6 +25,10 @@ app.get("/", function(req, res){
     res.render("../index");
 });
 
+//  - | Local Testing Route | - 
+// app.get("/", function(req, res){
+//     res.render("../view/home");
+// });
 // === | Controllers | ===
 
 // === | Listener | ===
