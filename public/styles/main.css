@@ -72,6 +72,7 @@ p {
 .projects {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 #projects__header {
