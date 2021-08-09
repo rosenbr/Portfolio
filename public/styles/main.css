@@ -36,7 +36,7 @@ p {
     align-items: center;
     justify-content: baseline;
     padding: 0 50px;
-    max-width: 100%;
+    max-width: 200%;
 }
 
 .info__intro {
