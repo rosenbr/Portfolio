@@ -181,3 +181,12 @@ p {
     font-size: 2em;
     font-family: 'Shadows Into Light', cursive;
 }
+
+/* ===== | Media Queries  | ===== */
+
+@media only screen {
+    .info__about {
+        display: flex;
+        flex-direction: column;
+    }
+}
