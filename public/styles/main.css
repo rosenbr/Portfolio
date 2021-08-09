@@ -184,7 +184,7 @@ p {
 
 /* ===== | Media Queries  | ===== */
 
-@media only screen {
+@media only screen and (max-width: 480px) {
     .info,
     .info__intro,
     .info__about,
@@ -197,14 +197,14 @@ p {
     }
 }
 
-@media only screen {
+@media only screen and (max-width: 480px) {
     .project__pachygatchi {
         display: flex;
         flex-direction: column-reverse;
     }
 }
 
-@media only screen {
+@media only screen and (max-width: 480px) {
     img {
         max-width: 100%;
     }
