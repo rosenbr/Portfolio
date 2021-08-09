@@ -22,7 +22,7 @@ app.use(express.static(__dirname + "/images"));
 // === | Routes | ===
 // - | Home | -
 app.get("/", function(req, res){
-    res.render("../views/home");
+    res.render("../index");
 });
 
 // === | Controllers | ===
