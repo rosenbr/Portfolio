@@ -49,6 +49,7 @@ p {
     align-items: center;
     justify-content: baseline;
     padding: 10%;
+    width: 75%;
 }
 
 .info__links {
@@ -94,21 +95,18 @@ p {
     display: flex;
     flex-direction: row;
     background-color: #185ADB;
-    /* height: 300px; */
 }
 
 .project__pachygatchi {
     display: flex;
     flex-direction: row;
     background-color: #0A1931;
-    /* height: 300px; */
 }
 
 .project__wayfarer {
     display: flex;
     flex-direction: row;
     background-color: #185ADB;
-    /* height: 30%; */
 }
 
 .project__info {
@@ -167,7 +165,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 150px;
     width: 250%;
     border-radius: 3px;
 }
