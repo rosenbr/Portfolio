@@ -13,7 +13,7 @@ img {
     width: 100%;
     border-radius: 5px;
     height: auto;
-    max-width: 100%;
+    max-width: 25%;
 }
 
 p {
@@ -93,18 +93,21 @@ p {
     display: flex;
     flex-direction: row;
     background-color: #185ADB;
+    max-width: 100%;
 }
 
 .project__pachygatchi {
     display: flex;
     flex-direction: row;
     background-color: #0A1931;
+    max-width: 100%;
 }
 
 .project__wayfarer {
     display: flex;
     flex-direction: row;
     background-color: #185ADB;
+    max-width: 100%;
 }
 
 .project__info {
