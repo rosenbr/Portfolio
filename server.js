@@ -1,15 +1,3 @@
-// TODO
-// CSS
-//  - add icons
-//  - align items
-//  - re-size pics
-//  - placement
-//  - background color
-//  - font color
-//  - font type
-// Deploy on Heroku
-// anything else?
-
 // === | External Modules | ===
 const express = require("express");
 // const methodOverride = require("method-override");
