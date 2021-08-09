@@ -91,6 +91,7 @@ p {
     display: flex;
     flex-direction: row;
     background-color: #185ADB;
+    width: 75%;
 }
 
 .project__pachygatchi {
