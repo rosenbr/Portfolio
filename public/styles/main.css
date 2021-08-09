@@ -63,12 +63,8 @@ p {
     font-family: 'Shadows Into Light', cursive;
 }
 
-#fa-linkedin__info {
-    padding: 10px;
-}
-
 #fa-github-square__info {
-    padding: 10px;
+    margin-left: .25em;
 }
 
 /* ===== | Projects | ===== */
