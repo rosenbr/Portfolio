@@ -21,14 +21,14 @@ app.use(express.static(__dirname + "/images"));
 
 // === | Routes | ===
 // - | Home | -
-// app.get("/", function(req, res){
-//     res.render("../index");
-// });
+app.get("/", function(req, res){
+    res.render("../index");
+});
 
 //  - | Local Testing Route | - 
-app.get("/", function(req, res){
-    res.render("../views/home");
-});
+// app.get("/", function(req, res){
+//     res.render("../views/home");
+// });
 // === | Controllers | ===
 
 // === | Listener | ===
