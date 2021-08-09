@@ -40,7 +40,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
-    align-items: center;
 }
 
 .info__about {
