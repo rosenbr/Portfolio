@@ -56,7 +56,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: baseline;
+    justify-content: center;
 }
 
 .info__header {
