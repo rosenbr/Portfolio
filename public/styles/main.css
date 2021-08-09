@@ -1,22 +1,14 @@
-/* Color Palettes
-    Palette One - https://colorhunt.co/palettes/space top middle
-    #0A1931
-    #185ADB
-    #FFC947
-    #EFEFEF
-
-    Palette Two - 
-    #4F0E0E
-    #BB8760
-    #FFDADA
-    #FFF1F1
-
-    Palette Three
-    #0A1931
-    #185ADB
-    #FFC947
-    #FEDDBE
+/* 
+TODO 
+- figure out a color palette (neutral? to balance all the color in the screen shots)
+- figure out how to align the about info
+- clean up project area
+- fonts
+- Spell check API for contact message?
+- invalid entry on contact error handling?
+- anything else?
 */
+
 
 /* === | All | === */
 body {
@@ -29,9 +21,16 @@ img {
     width: 400px;
 }
 
-i {
+.fa-linkedin {
     color: #EFEFEF;
-    background-color: #EFEFEF;
+}
+
+.fa-github-square {
+    color: #EFEFEF;
+}
+
+#fa-github-square {
+    color: #0A1931;
 }
 
 /* === | Info/About | === */
@@ -93,17 +92,27 @@ i {
     flex-direction: column;
 }
 
-.project__description {
-    width: 400px;
-    height: 300px;
-}
-
 .project__link {
     color: #EFEFEF;
 }
 
+.project__head {
+    display: flex;
+    flex-direction: row;
+}
+
+#projects__header {
+    display: flex;
+    justify-content: center;
+}
+
 #pachy__link {
     color: #0A1931;
+}
+
+#pachy__head {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 /* === | Contact | === */
@@ -112,6 +121,7 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #EFEFEF;
 }
 
 .contact__email {
@@ -119,6 +129,8 @@ i {
     flex-direction: column;
     align-items: center;
     width: 200px;
+    border-radius: 3px;
+    color: #EFEFEF;
 }
 
 .contact__message {
@@ -127,6 +139,8 @@ i {
     align-items: center;
     height: 150px;
     width: 500px;
+    color: #EFEFEF;
+    border-radius: 3px;
 }
 
 .contact__button {
@@ -134,3 +148,4 @@ i {
     flex-direction: column;
     align-items: center;
 }
+
