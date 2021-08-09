@@ -36,7 +36,6 @@ p {
     align-items: center;
     justify-content: baseline;
     padding: 0 50px;
-    max-width: 200%;
 }
 
 .info__intro {
@@ -52,6 +51,7 @@ p {
     justify-content: baseline;
     padding: 10%;
     max-width: 150%;
+    position: relative;
 }
 
 .info__links {
