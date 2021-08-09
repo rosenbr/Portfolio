@@ -29,6 +29,11 @@ img {
     width: 400px;
 }
 
+i {
+    color: #EFEFEF;
+    background-color: #EFEFEF;
+}
+
 /* === | Info/About | === */
 .info {
     display: flex;
