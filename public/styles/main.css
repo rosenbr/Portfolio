@@ -1,17 +1,5 @@
-/* 
-TODO 
-- figure out a color palette (neutral? to balance all the color in the screen shots)
-- figure out how to align the about info
-- clean up project area
-- fonts
-- Spell check API for contact message?
-- invalid entry on contact error handling?
-- anything else?
-- NOTE REMOVE BOARDERS WHEN DONE!!!!!
-*/
+/* ===== | All | ===== */
 
-
-/* === | All | === */
 body {
     background-color: #0A1931;
     color: #EFEFEF;
@@ -20,6 +8,11 @@ body {
 img {
     height: 300px;
     width: 400px;
+    border-radius: 5px;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
 }
 
 .fa-linkedin {
@@ -30,17 +23,14 @@ img {
     color: #EFEFEF;
 }
 
-#fa-github-square {
-    color: #0A1931;
-}
+/* ===== | Info/About | ===== */
 
-/* === | Info/About | === */
 .info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: baseline;
-    border-style: solid;
+    padding: 0 50px;
 }
 
 .info__intro {
@@ -55,37 +45,67 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: baseline;
+    padding: 10%;
 }
 
-/* === | Projects | === */
+.info__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info__header {
+    font-size: 3em;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#fa-linkedin__info {
+    padding: 10px;
+}
+
+#fa-github-square__info {
+    padding: 10px;
+}
+
+/* ===== | Projects | ===== */
+
 .projects {
     display: flex;
     flex-direction: row;
-    border-style: solid;
 }
 
-/* .project__header {
+#projects__header {
+    font-size: 3em;
+    text-decoration: underline;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.project__info {
     display: flex;
-    align-items: center;
-} */
+    justify-content: flex-end;
+    padding: 1em;
+    margin: 0 2em;
+}
 
 .project__noods {
     display: flex;
     flex-direction: row;
     background-color: #185ADB;
+    height: 300px;
 }
 
 .project__pachygatchi {
     display: flex;
     flex-direction: row;
-    background-color: #FFC947;
-    color: #0A1931;
+    background-color: #0A1931;
+    height: 300px;
 }
 
 .project__wayfarer {
     display: flex;
     flex-direction: row;
     background-color: #185ADB;
+    height: 300px;
 }
 
 .project__info {
@@ -100,6 +120,7 @@ img {
 .project__head {
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
 }
 
 #projects__header {
@@ -107,18 +128,22 @@ img {
     justify-content: center;
 }
 
-#pachy__link {
-    color: #0A1931;
-}
-
 #pachy__head {
     display: flex;
     flex-direction: row-reverse;
+    align-items: flex-end;
 }
 
-/* === | Contact | === */
+.project__title {
+    margin: 1em;
+    text-decoration: underline;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5em;
+}
+
+/* ===== | Contact | ===== */
+
 .contact {
-    border-style: solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,7 +156,6 @@ img {
     align-items: center;
     width: 200px;
     border-radius: 3px;
-    color: #EFEFEF;
 }
 
 .contact__message {
@@ -140,7 +164,6 @@ img {
     align-items: center;
     height: 150px;
     width: 500px;
-    color: #EFEFEF;
     border-radius: 3px;
 }
 
@@ -150,3 +173,7 @@ img {
     align-items: center;
 }
 
+.contact__header {
+    font-size: 2em;
+    font-family: 'Shadows Into Light', cursive;
+}
