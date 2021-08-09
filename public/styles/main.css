@@ -167,7 +167,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250%;
+    width: 100%;
     border-radius: 3px;
 }
 
@@ -184,9 +184,28 @@ p {
 
 /* ===== | Media Queries  | ===== */
 
-@media only screen {
-    .info__about {
+@media only screen and (max-width: 400px) {
+    .info,
+    .info__intro,
+    .info__about,
+    .info__header,
+    .project__noods,
+    .project__wayfarer {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .project__pachygatchi {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    img {
+        max-width: 100%;
     }
 }
