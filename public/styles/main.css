@@ -20,6 +20,11 @@ p {
     font-family: 'PT Sans', sans-serif;
 }
 
+h2 {
+    font-size: 3em;
+    font-family: 'Shadows Into Light', cursive;
+}
+
 .fa-linkedin,
 .fa-github-square,
 .project__link {
@@ -59,9 +64,9 @@ p {
     justify-content: flex-start;
 }
 
-h2 {
-    font-size: 3em;
+.info__header {
     font-family: 'Shadows Into Light', cursive;
+    font-size: 3em;
 }
 
 #fa-github-square__info {
