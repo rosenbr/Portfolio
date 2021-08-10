@@ -20,11 +20,9 @@ p {
     font-family: 'PT Sans', sans-serif;
 }
 
-.fa-linkedin {
-    color: #EFEFEF;
-}
-
-.fa-github-square {
+.fa-linkedin,
+.fa-github-square,
+.project__link {
     color: #EFEFEF;
 }
 
@@ -116,10 +114,6 @@ p {
     flex-direction: column;
 }
 
-.project__link {
-    color: #EFEFEF;
-}
-
 .project__head {
     display: flex;
     flex-direction: row;
@@ -187,6 +181,7 @@ p {
 @media only screen and (max-width: 480px) {
     .info,
     .info__intro,
+    #info__name,
     .info__about,
     .info__header,
     .project__noods,
@@ -207,5 +202,11 @@ p {
 @media only screen and (max-width: 480px) {
     img {
         max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .intro__header {
+        text-align: right;
     }
 }
