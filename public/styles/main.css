@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #EDF5E1;
+    background-color: #5CDB95;
     color: #05386B;
 }
 
@@ -103,7 +103,7 @@ h2 {
 .project__pachygatchi {
     display: flex;
     flex-direction: row;
-    background-color: #5CDB95;
+    background-color: #EDF5E1;
     max-width: 100%;
 }
 
