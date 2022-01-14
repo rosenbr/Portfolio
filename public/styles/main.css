@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #0A1931;
-    color: #EFEFEF;
+    background-color: #5CDB95;
+    color: #05386B;
 }
 
 img {
@@ -28,7 +28,7 @@ h2 {
 .fa-linkedin,
 .fa-github-square,
 .project__link {
-    color: #EFEFEF;
+    color: #05386B;
 }
 
 /* ===== | Info/About | ===== */
@@ -96,21 +96,21 @@ h2 {
 .project__noods {
     display: flex;
     flex-direction: row;
-    background-color: #185ADB;
+    background-color: #8EE4AF;
     max-width: 100%;
 }
 
 .project__pachygatchi {
     display: flex;
     flex-direction: row;
-    background-color: #0A1931;
+    background-color: #EDF5E1;
     max-width: 100%;
 }
 
 .project__wayfarer {
     display: flex;
     flex-direction: row;
-    background-color: #185ADB;
+    background-color: #8EE4AF;
     max-width: 100%;
 }
 
