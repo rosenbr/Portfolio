@@ -69,6 +69,11 @@ h2 {
     font-size: 3em;
 }
 
+.info__pic{
+    height: auto;
+    width: auto;
+}
+
 #fa-github-square__info {
     margin-left: .25em;
 }
