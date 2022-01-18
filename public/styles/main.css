@@ -67,6 +67,7 @@ h2 {
 .info__header {
     font-family: 'Shadows Into Light', cursive;
     font-size: 3em;
+    text-decoration: underline;
 }
 
 .info__pic{
@@ -76,6 +77,28 @@ h2 {
 
 #fa-github-square__info {
     margin-left: .25em;
+}
+
+/* ===== | Skills | ===== */
+
+.about__skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about__header{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.about__icons{
+    padding: 10px;
+    margin: 0 2em;
+    display: flex;
+    align-items: centers;
 }
 
 /* ===== | Projects | ===== */
@@ -134,6 +157,7 @@ h2 {
 #projects__header {
     display: flex;
     justify-content: center;
+    text-decoration: underline;
 }
 
 #pachy__head {
@@ -191,6 +215,7 @@ h2 {
 .contact__header {
     font-size: 2em;
     font-family: 'Shadows Into Light', cursive;
+    text-decoration: underline;
 }
 
 /* ===== | Media Queries  | ===== */
