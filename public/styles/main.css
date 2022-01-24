@@ -142,6 +142,13 @@ h2 {
     max-width: 100%;
 }
 
+.project__calc {
+    display: flex;
+    flex-direction: row;
+    background-color: #EDF5E1;
+    max-width: 100%;
+}
+
 .project__info {
     display: flex;
     flex-direction: column;
@@ -161,6 +168,13 @@ h2 {
 }
 
 #pachy__head {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    float: left;
+}
+
+#calc__head {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
@@ -210,6 +224,11 @@ h2 {
     color: #05386B;
     border-color: #05386B;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact__button:hover {
+    background-color: #5CDB95;
 }
 
 .contact__header {
