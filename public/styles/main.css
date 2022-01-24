@@ -71,8 +71,8 @@ h2 {
 }
 
 .info__pic{
-    height: auto;
-    width: auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #fa-github-square__info {
@@ -246,7 +246,8 @@ h2 {
     .info__about,
     .info__header,
     .project__noods,
-    .project__wayfarer {
+    .project__wayfarer,
+    .project__calc {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -254,7 +255,8 @@ h2 {
 }
 
 @media only screen and (max-width: 480px) {
-    .project__pachygatchi {
+    .project__pachygatchi,
+    .project__calc {
         display: flex;
         flex-direction: column-reverse;
     }
