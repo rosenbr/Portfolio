@@ -229,6 +229,8 @@ h2 {
 
 .contact__button:hover {
     background-color: #5CDB95;
+    color: #05386B;
+    border-color: #05386B;
 }
 
 .contact__header {
